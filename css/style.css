@@ -639,7 +639,7 @@ ul.callbacks_tabs.callbacks2_tabs {
     left: 45%;
     width: 4.25em;
     height: 4.25em;
-    background: #fff;
+     background: rgba(255, 255, 255, 0.363);
     font-size: 19px;
     font-weight: 400;
     color: #555;
