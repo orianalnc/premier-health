@@ -141,6 +141,12 @@ label{
 	padding: 10px;
 }
 
+.img_faq{
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+}
+
 .formulario{
 	padding: 20px;
 }
