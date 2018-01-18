@@ -94,7 +94,7 @@ label{
 
 
 .logo{
-    width: 100px;
+    width: 150px;
     margin-left: 10%;
     background-color: #fff;
 }
@@ -1086,8 +1086,11 @@ h3.title ,h2.title{
     -o-background-size: cover;
     -ms-background-size: cover;
     -moz-background-size: cover;
-	background-color: #595959;
+	background-color: #1961a3;
 	
+}
+.contact_ocagile h2.title{
+	color: #fff;
 }
 .strip{
     width: 11%;
@@ -1214,7 +1217,7 @@ h3.title ,h2.title{
 	-ms-transition:0.5s all;
 }
 .footer{
-	background-color: #969696;
+	background-color: #ffffff;
 	height: 60px;
 	display: flex;
 	justify-content: center;
@@ -1224,13 +1227,13 @@ h3.title ,h2.title{
 }
 .footer-text {
 	margin: 0px auto 0;
-	color: #fff;
+	color: rgb(39, 39, 39);
 	font-size: 15px;
 	text-align: center;
 }
 
 .fea_grid1:hover ,.fea_grid2:hover{
-    background: url(../images/p1-0.png) no-repeat center;
+    background: url(../images/03_.png) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -2047,6 +2050,7 @@ line-height:2.2em;
 	}
 	.logo{
 		margin-left: 10px;
+		width: 100px;
 		
 	}
 	.banner-info {
