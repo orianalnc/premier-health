@@ -165,6 +165,10 @@ label{
 	padding: 15px; 
 }
 
+.space{
+	margin-top: 20px;
+}
+
 .input{
 	background-color: #fff;
 	border: 1px solid #ccc;
