@@ -191,6 +191,11 @@ input{
 	color: white;
 }
 
+.oc_contac{
+	float: right;
+	font-size: 20px;
+}
+
 
 #map {
 	width: 100%;
@@ -2224,6 +2229,14 @@ line-height:2.2em;
 	}
 }
 @media (max-width: 991px){
+	.glyphicon{
+		top: 0;
+
+	}
+	.contact-foo{
+		text-align: center;
+	}
+
 	.contact-oc_footer {
 		width: 100%;
 		background: rgba(19, 73, 115,0.5);
@@ -2482,6 +2495,9 @@ line-height:2.2em;
 	
 }
 @media (max-width: 800px){
+	.oc_contac{
+		display: none;
+	}
 	.contact-oc_footer {
 		width: 100%;
 		background: rgba(19, 73, 115,0.5);
@@ -2660,6 +2676,9 @@ line-height:2.2em;
 	}	
 }
 @media (max-width: 768px){
+	.oc_contac{
+		display: none;
+	}
 	.contact-oc_footer {
 		width: 100%;
 		background: rgba(19, 73, 115,0.5);
@@ -2716,6 +2735,9 @@ line-height:2.2em;
 
 }
 @media (max-width: 736px){
+	.oc_contac{
+		display: none;
+	}
 	.contact-oc_footer {
 		width: 100%;
 		background: rgba(19, 73, 115,0.5);
@@ -2825,6 +2847,9 @@ line-height:2.2em;
 	}
 }
 @media (max-width: 667px){
+	.oc_contac{
+		display: none;
+	}
 	.contact-oc_footer {
 		width: 100%;
 		background: rgba(19, 73, 115,0.5);
@@ -2926,6 +2951,9 @@ line-height:2.2em;
 	}	
 }
 @media (max-width: 640px){
+	.oc_contac{
+		display: none;
+	}
 	.contact-oc_footer {
 		width: 100%;
 		background: rgba(19, 73, 115,0.5);
@@ -2979,6 +3007,9 @@ line-height:2.2em;
 	}	
 }
 @media (max-width: 600px){
+	.oc_contac{
+		display: none;
+	}
 	.contact-oc_footer {
 		width: 100%;
 		background: rgba(19, 73, 115,0.5);
@@ -3064,6 +3095,9 @@ line-height:2.2em;
 	}
 }
 @media (max-width: 568px){
+	.oc_contac{
+		display: none;
+	}
 	.contact-oc_footer {
 		width: 100%;
 		background: rgba(19, 73, 115,0.5);
@@ -3118,6 +3152,10 @@ line-height:2.2em;
 	}	
 }
 @media (max-width: 480px){
+
+	.oc_contac{
+		display: none;
+	}
 	.contact-oc_footer {
 		width: 100%;
 		background: rgba(19, 73, 115,0.5);
@@ -3185,7 +3223,7 @@ line-height:2.2em;
 	}
 	.glyphicon {
 		position: relative;
-		top: 19px;
+		top: 0;
 	}
 	.hi-icon {
 		width: 60px;
@@ -3265,6 +3303,9 @@ line-height:2.2em;
 	}
 }
 @media (max-width: 414px){
+	.oc_contac{
+		display: none;
+	}
 	.contact-oc_footer {
 		width: 100%;
 		background: rgba(19, 73, 115,0.5);
@@ -3478,6 +3519,9 @@ line-height:2.2em;
 	}
 }
 @media (max-width: 384px){
+	.oc_contac{
+		display: none;
+	}
 	.contact-oc_footer {
 		width: 100%;
 		background: rgba(19, 73, 115,0.5);
@@ -3695,6 +3739,9 @@ line-height:2.2em;
 	}
 }
 @media (max-width: 375px){
+	.oc_contac{
+		display: none;
+	}
 	.contact-oc_footer {
 		width: 100%;
 		background: rgba(19, 73, 115,0.5);
@@ -3803,6 +3850,13 @@ line-height:2.2em;
 	}
 }
 @media (max-width: 320px){
+	.text-desc p{
+		font-size: 10px;
+	}
+
+	.oc_contac{
+		display: none;
+	}
 	.contact-oc_footer {
 		width: 100%;
 		background: rgba(19, 73, 115,0.5);
