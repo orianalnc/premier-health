@@ -839,7 +839,8 @@ h3.title ,h2.title{
 }
 .care_agileits{
 	padding:6em 0;
-    background: url("../images/dot.png"),url(../images/b2.jpg) no-repeat right center;
+    background: url("../images/dot.png"),url(../images/20.jpg) no-repeat right center;
+	background-size: cover;
 }
 .care_agileits h3 {
     color: #1961a3;
