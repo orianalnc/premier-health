@@ -93,6 +93,9 @@ label{
     letter-spacing: 2px;
 }
 
+.p-left{
+	padding-left: 0 !important;
+}
 
 .logo{
     width: 150px;
@@ -100,7 +103,33 @@ label{
     background-color: #fff;
 }
 
+.contact_ocagile form input[type="text"], .contact_ocagile form input[type="email"]{
+	color: #2D2D2D;
+}
 
+.contact_ocagile textarea{
+	margin: 0 !important;
+	height: 120px !important;
+	color: #2D2D2D !important;
+}
+
+input{
+	color: #2D2D2D !important;
+
+}
+ .maps-logo{
+	position: absolute;
+	z-index: 1;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+ }
+
+#map {
+	width: 100%;
+	height: 400px;
+	background-color: grey;
+}
 
 .linea{
 	width: 11%;
@@ -207,16 +236,15 @@ input{
 	width: 30%;
 	background: rgba(19, 73, 115,0.5);
 	padding: 3em 3em 3em 5em;
-	margin-top: -15em;
+	margin-top: -27em;
 	margin-right: 8em;
 	color: #2D2D2D;
 
 }
 .contact-oc_footer {
 	float: right;
-	width: 70%;
-	background: rgba(19, 73, 115,0.5);
-	padding: 3em 3em 3em 5em;
+	width: 100%;
+	padding: 3em 0em 0em 3em;
 	margin-right: 8em;
 	color: #2D2D2D;
 
@@ -1840,9 +1868,8 @@ line-height:2.2em;
 
 @media (max-width: 1440px){
 	.contact-oc_footer {
-		width: 70%;
-		background: rgba(19, 73, 115,0.5);
-		padding: 3em 3em 3em 5em;
+		width: 100%;
+		padding: 3em 0em 0em 3em;
 		margin-right: 0;
 		color: #2D2D2D;
 	}
@@ -1875,9 +1902,8 @@ line-height:2.2em;
 }
 @media (max-width: 1366px){
 	.contact-oc_footer {
-		width: 70%;
-		background: rgba(19, 73, 115,0.5);
-		padding: 3em 3em 3em 5em;
+		width: 100%;
+		padding: 3em 0em 0em 3em;
 		margin-right: 0;
 		color: #2D2D2D;
 	}
@@ -1912,9 +1938,8 @@ line-height:2.2em;
 }
 @media (max-width: 1280px){
 	.contact-oc_footer {
-		width: 70%;
-		background: rgba(19, 73, 115,0.5);
-		padding: 3em 3em 3em 5em;
+		width: 100%;
+		padding: 3em 0em 0em 3em;
 		margin-right: 0;
 		color: #2D2D2D;
 	}
@@ -1948,9 +1973,8 @@ line-height:2.2em;
 }
 @media (max-width: 1080px){
 	.contact-oc_footer {
-		width: 70%;
-		background: rgba(19, 73, 115,0.5);
-		padding: 3em 3em 3em 5em;
+		width: 100%;
+		padding: 3em 0em 0em 3em;
 		margin-right: 0;
 		color: #2D2D2D;
 	}
@@ -2136,8 +2160,7 @@ line-height:2.2em;
 @media (max-width: 1024px){
 
 	.contact-oc_footer {
-		width: 70%;
-		background: rgba(19, 73, 115,0.5);
+		width: 100%;
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
@@ -2239,7 +2262,6 @@ line-height:2.2em;
 
 	.contact-oc_footer {
 		width: 100%;
-		background: rgba(19, 73, 115,0.5);
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
@@ -2500,7 +2522,6 @@ line-height:2.2em;
 	}
 	.contact-oc_footer {
 		width: 100%;
-		background: rgba(19, 73, 115,0.5);
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
@@ -2681,7 +2702,6 @@ line-height:2.2em;
 	}
 	.contact-oc_footer {
 		width: 100%;
-		background: rgba(19, 73, 115,0.5);
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
@@ -2740,7 +2760,6 @@ line-height:2.2em;
 	}
 	.contact-oc_footer {
 		width: 100%;
-		background: rgba(19, 73, 115,0.5);
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
@@ -2852,7 +2871,6 @@ line-height:2.2em;
 	}
 	.contact-oc_footer {
 		width: 100%;
-		background: rgba(19, 73, 115,0.5);
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
@@ -2956,7 +2974,6 @@ line-height:2.2em;
 	}
 	.contact-oc_footer {
 		width: 100%;
-		background: rgba(19, 73, 115,0.5);
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
@@ -3012,7 +3029,6 @@ line-height:2.2em;
 	}
 	.contact-oc_footer {
 		width: 100%;
-		background: rgba(19, 73, 115,0.5);
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
@@ -3100,7 +3116,6 @@ line-height:2.2em;
 	}
 	.contact-oc_footer {
 		width: 100%;
-		background: rgba(19, 73, 115,0.5);
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
@@ -3158,7 +3173,6 @@ line-height:2.2em;
 	}
 	.contact-oc_footer {
 		width: 100%;
-		background: rgba(19, 73, 115,0.5);
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
@@ -3308,7 +3322,6 @@ line-height:2.2em;
 	}
 	.contact-oc_footer {
 		width: 100%;
-		background: rgba(19, 73, 115,0.5);
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
@@ -3524,7 +3537,6 @@ line-height:2.2em;
 	}
 	.contact-oc_footer {
 		width: 100%;
-		background: rgba(19, 73, 115,0.5);
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
@@ -3744,7 +3756,6 @@ line-height:2.2em;
 	}
 	.contact-oc_footer {
 		width: 100%;
-		background: rgba(19, 73, 115,0.5);
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
@@ -3859,7 +3870,6 @@ line-height:2.2em;
 	}
 	.contact-oc_footer {
 		width: 100%;
-		background: rgba(19, 73, 115,0.5);
 		padding: 3em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
