@@ -288,7 +288,7 @@ input{
 	padding: 3em 3em 3em 5em;
 	margin-top: -27em;
 	margin-right: 8em;
-	color: #2D2D2D;
+	color: #ffffff;
 
 }
 .contact-oc_footer {
@@ -303,6 +303,11 @@ input{
 .contact_ocagile form input[type="text"], .contact_ocagile form input[type="email"]{
 	padding: 2px 2px !important;
 
+}
+
+.oc_flex{
+	display: flex;
+	align-items: center;
 }
 
 
