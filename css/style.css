@@ -303,6 +303,10 @@ input{
 .contact_ocagile form input[type="text"], .contact_ocagile form input[type="email"]{
 	padding: 2px 2px !important;
 
+
+}
+.contact_ocagile form input[type="submit"]{
+    font-size: 12px !important;
 }
 
 .oc_flex{
