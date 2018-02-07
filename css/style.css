@@ -476,6 +476,7 @@ input{
 a.callbacks_nav.callbacks1_nav.prev {
     background: transparent url("../images/arrow4.png") no-repeat 0px 0px;
     left: 2%;
+	top: 28vmin;
 }
 /*-- agileits --*/
 .callbacks_nav.next {
