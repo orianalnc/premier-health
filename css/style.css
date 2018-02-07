@@ -244,6 +244,9 @@ input{
 	padding: 15px !important;
 }
 
+.space-service{
+	margin-top: 10vmin;
+}
 .space{
 	margin-top: 20px;
 }
@@ -317,6 +320,8 @@ input{
 	display: flex;
 	align-items: center;
 }
+
+
 
 
 
@@ -530,9 +535,8 @@ a.callbacks_nav.callbacks1_nav.prev {
 .callbacks_tabs{
     list-style: none;
     position: absolute;
-    top: 124%;
     z-index: 999;
-    left: 48%;
+    left: 20%;
     padding: 0;
     margin: 0;
 }
