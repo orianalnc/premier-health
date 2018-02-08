@@ -323,6 +323,18 @@ input{
 
 
 
+.j-conte{
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	position: absolute;
+	z-index: 99999;
+	top: 7%;
+	right: 2%;
+}
+
+
+
 
 
 
@@ -481,7 +493,7 @@ input{
 a.callbacks_nav.callbacks1_nav.prev {
     background: transparent url("../images/arrow4.png") no-repeat 0px 0px;
     left: 2%;
-	top: 28vmin;
+	top: 50%;
 }
 /*-- agileits --*/
 .callbacks_nav.next {
@@ -2046,9 +2058,10 @@ line-height:2.2em;
 	}
 }
 @media (max-width: 1080px){
+	
 	.contact-oc_footer {
 		width: 100%;
-		padding: 3em 0em 0em 3em;
+		padding: 0em 0em 0em 3em;
 		margin-right: 0;
 		color: #2D2D2D;
 	}
@@ -2232,10 +2245,13 @@ line-height:2.2em;
 	}	
 }
 @media (max-width: 1024px){
+	.j-conte{
+		top: -2px;
+	}
 
 	.contact-oc_footer {
 		width: 100%;
-		padding: 3em 3em 3em 5em;
+		padding: 0em 3em 3em 5em;
 		margin-right: 0;
 		color: #2D2D2D;
 	}
@@ -2325,10 +2341,23 @@ line-height:2.2em;
 		padding: 0 8px;
 	}
 }
+
 @media (max-width: 991px){
+	
+.j-conte{
+	top: 30%;
+
+}
+	.respon{
+		left: 25%;
+
+	}
 	.glyphicon{
 		top: 0;
 
+	}
+	#services .fea_right{
+		text-align: left;
 	}
 	.contact-foo{
 		text-align: center;
@@ -2591,9 +2620,17 @@ line-height:2.2em;
 	
 }
 @media (max-width: 800px){
-	.oc_contac{
-		display: none;
+	.j-conte{
+		top: 20%;
+		
 	}
+	
+
+	.respon{
+		left: 25%;
+
+	}
+	
 	.contact-oc_footer {
 		width: 100%;
 		padding: 3em 3em 3em 5em;
@@ -2771,6 +2808,10 @@ line-height:2.2em;
 	}	
 }
 @media (max-width: 768px){
+	.respon{
+		left: 25%;
+
+	}
 	.oc_contac{
 		display: none;
 	}
@@ -2829,6 +2870,10 @@ line-height:2.2em;
 
 }
 @media (max-width: 736px){
+	.respon{
+		left: 25%;
+
+	}
 	.oc_contac{
 		display: none;
 	}
@@ -2940,6 +2985,10 @@ line-height:2.2em;
 	}
 }
 @media (max-width: 667px){
+	.respon{
+		left: 25%;
+
+	}
 	.oc_contac{
 		display: none;
 	}
@@ -3043,6 +3092,10 @@ line-height:2.2em;
 	}	
 }
 @media (max-width: 640px){
+	.respon{
+		left: 25%;
+
+	}
 	.oc_contac{
 		display: none;
 	}
@@ -3241,6 +3294,10 @@ line-height:2.2em;
 	}	
 }
 @media (max-width: 480px){
+	.respon{
+		left: 15%;
+
+	}
 
 	.oc_contac{
 		display: none;
@@ -3391,6 +3448,10 @@ line-height:2.2em;
 	}
 }
 @media (max-width: 414px){
+	.respon{
+		left: 10%;
+
+	}
 	.oc_contac{
 		display: none;
 	}
@@ -3606,6 +3667,10 @@ line-height:2.2em;
 	}
 }
 @media (max-width: 384px){
+	.respon{
+		left: 0;
+
+	}
 	.oc_contac{
 		display: none;
 	}
@@ -3935,6 +4000,9 @@ line-height:2.2em;
 	}
 }
 @media (max-width: 320px){
+	.j-conte{
+		display: none;
+	}
 	.text-desc p{
 		font-size: 10px;
 	}
