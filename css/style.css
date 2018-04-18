@@ -334,8 +334,8 @@ input{
 	justify-content: end;
 	position: absolute;
 	z-index: 99999;
-	top: 7%;
-	right: -7vw;
+	top: 20px;
+    right: -80px;
 }
 
 .padding{
