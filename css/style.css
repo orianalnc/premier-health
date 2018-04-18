@@ -124,6 +124,7 @@ label{
 .mar-form .btn-submit{
 	background-color: #f58120;
 	color: #ffffff !important;
+	width: 100% !important;
 }
 
 input{
@@ -296,7 +297,7 @@ input{
 	z-index: 10000000;
 	width: 30%;
 	background: rgba(19, 73, 115,0.5);
-	padding: 3em 3em 3em 5em;
+	padding: 3em 3em 3em 3em;
 	margin-top: -27em;
 	margin-right: 8em;
 	color: #ffffff;
@@ -334,7 +335,7 @@ input{
 	position: absolute;
 	z-index: 99999;
 	top: 7%;
-	right: 2%;
+	right: -7vw;
 }
 
 .padding{
@@ -2666,7 +2667,7 @@ line-height:2.2em;
 	}
 	.contact-oc {
 		width: 80%;
-		padding: 3em 3em 3em 5em;
+		padding: 3em 3em 3em 3em;
 		margin-top: 2em;
 		margin-right: 5em !important;
 	}
@@ -2850,7 +2851,7 @@ line-height:2.2em;
 	}
 	.contact-oc {
 		width: 80%;
-		padding: 3em 3em 3em 5em;
+		padding: 3em 3em 3em 3em;
 		margin-top: 2em;
 		margin-right: 5em !important;
 	}
@@ -2912,7 +2913,7 @@ line-height:2.2em;
 	}
 	.contact-oc {
 		width: 80%;
-		padding: 3em 3em 3em 5em;
+		padding: 3em 3em 3em 3em;
 		margin-top: 2em;
 		margin-right: 5em !important;
 	}
@@ -3032,7 +3033,7 @@ line-height:2.2em;
 	.contact-oc {
 
 		width: 100%;
-		padding: 3em 3em 3em 5em;
+		padding: 3em 3em 3em 3em;
 		margin-top: 2em;
 		margin-right: 0em !important;
 
@@ -3146,7 +3147,7 @@ line-height:2.2em;
 	.contact-oc {
 
 		width: 100%;
-		padding: 3em 3em 3em 5em;
+		padding: 3em 3em 3em 3em;
 		margin-top: 2em;
 		margin-right: 0em !important;
 
@@ -3201,7 +3202,7 @@ line-height:2.2em;
 	.contact-oc {
 
 		width: 100%;
-		padding: 3em 3em 3em 5em;
+		padding: 3em 3em 3em 3em;
 		margin-top: 2em;
 		margin-right: 0em !important;
 
@@ -3289,7 +3290,7 @@ line-height:2.2em;
 	.contact-oc {
 
 		width: 100%;
-		padding: 3em 3em 3em 5em;
+		padding: 3em 3em 3em 3em;
 		margin-top: 2em;
 		margin-right: 0em !important;
 
@@ -3349,7 +3350,7 @@ line-height:2.2em;
 	.contact-oc {
 
 		width: 100%;
-		padding: 3em 3em 3em 5em;
+		padding: 3em 3em 3em 3em;
 		margin-top: 2em;
 		margin-right: 0em !important;
 
@@ -3501,7 +3502,7 @@ line-height:2.2em;
 	}
 	.contact-oc {
 		width: 100%;
-		padding: 3em 3em 3em 5em;
+		padding: 3em 3em 3em 3em;
 		margin-top: 2em;
 		margin-right: 0em !important;
 
@@ -3721,7 +3722,7 @@ line-height:2.2em;
 	.contact-oc {
 
 		width: 100%;
-		padding: 3em 3em 3em 5em;
+		padding: 3em 3em 3em 3em;
 		margin-top: 2em;
 		margin-right: 0em !important;
 
@@ -3941,7 +3942,7 @@ line-height:2.2em;
 	.contact-oc {
 
 		width: 100%;
-		padding: 3em 3em 3em 5em;
+		padding: 3em 3em 3em 3em;
 		margin-top: 2em;
 		margin-right: 0em !important;
 
@@ -4063,7 +4064,7 @@ line-height:2.2em;
 	.contact-oc {
 
 		width: 100%;
-		padding: 3em 3em 3em 5em;
+		padding: 3em 3em 3em 3em;
 		margin-top: 2em;
 		margin-right: 0em !important;
 
