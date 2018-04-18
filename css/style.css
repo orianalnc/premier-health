@@ -242,6 +242,9 @@ input{
 	border-radius: 5px !important;
 	background-color: #fff;
 	padding: 15px !important;
+	width: 30% !important;
+    float: left;
+    margin-top: 30px;
 }
 
 .space-service{
@@ -259,11 +262,12 @@ input{
 }
 
 .input{
-	background-color: #fff !important;
+	background-color: rgb(255, 255, 255) !important;
 	border: 1px solid #ccc !important;
 	line-height: 2 !important;
 	width: 100%;
 	border-radius: 9px !important;
+	color: #474747;
 }
 .white{
 	color: #ffffff !important;
@@ -341,9 +345,14 @@ input{
 	height: 480px;
 }
 
+span.visible{
+	visibility: hidden;
+}
 
 
-
+div .about-bottom ul{
+	list-style: none;
+}
 
 
 /*-- //logo --*/

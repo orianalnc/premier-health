@@ -5,7 +5,7 @@ Author: ORIANA CONTRERAS
 <html>
 <head>
 <title>Pharmacy Premier Health</title>
-<link rel="icon" href="images/logo.png" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -112,37 +112,38 @@ Author: ORIANA CONTRERAS
             <div class="row">
                     <div class="col-md-8">
                         
-							<form action="" method="post">
+							<form action="refill.php" method="post">
 									<div class="formulario">
 											<div class="form">
 												<label for=""> First name</label>
-												<input type="text" class="input" >
+												<input type="text" class="input"  name="first" required >
 											</div>
 											
 											<div class="form">
 												<label for="">Last name</label>
-												<input type="text" class="input" >
+												<input type="text" class="input"  name="last" required>
 											</div>
 				
 											<div class="form">
 												<label for="">E-mail</label>
-												<input type="text" class="input" >
+												<input type="text" class="input" name="email" required >
 											</div>
 				
 											<div class="form">
 													<label for="">Phone</label>
-													<input type="text" class="input" >
+													<input type="text" class="input" name="phone" required >
 											</div>
 											<div class="form">
 													<label for="">RX Number/s</label>
-													<input type="textl" class="input" >
+													<input type="textl" class="input" name="rxNumber" required >
 											</div>
 											
 											<div class="form ">
 													<label for="">Message</label>
-													<textarea class="input" name="menssages" id="" cols="30" rows="10"></textarea>
+													<textarea class="input" name="menssage" id="" cols="30" rows="10" readonly></textarea>
 													
 											</div>
+											<div class=" col xl12 l12 m12 s12 g-recaptcha" data-sitekey="6LdENUgUAAAAAIKcq1XfmdF2_MTPbqKeqkxCfvo6"></div>
 											<div class="form">
 												<div class=" text-center ">
 														<input type="submit" value="Submit" class="btn-submit">
@@ -207,6 +208,7 @@ Author: ORIANA CONTRERAS
 
 
 <!-- contact -->
+
 <div class="contact_ocagile">
 	<div class="row"><h2 class="title oc">Contacts Us</h2>
 		<div class="strip"></div>
@@ -251,7 +253,7 @@ Author: ORIANA CONTRERAS
 									<h4 style="display: inline;">Hours of Operation</h4>
 									<div>
 
-											<h5> Mon - Fri: 9-5 pm  : Open </h5>
+										<h5> Mon - Fri: 9-5 pm  : Open </h5>
 										<h5>Sat- Sun : Closed</h5>
 									</div>
 								</div>
@@ -292,49 +294,48 @@ Author: ORIANA CONTRERAS
 		<div class=" space oc_flex">
 
 
-				<div class="contact-oc_footer ">
-						<div class="banner-text ocl ">
-							<form action="" class=" white">
-								<div class="row form">
-									<div class=" col-md-3 form ">
-										<label for=""> Name</label>
-										<input type="text" class="" >
-									</div>
-		
-									<div class="  col-md-3 form ">
-										<label for=""> E-mail</label>
-										<input type="text" class="" >
-									</div>
-									<div class="form col-md-3">
-										<label for=""> Phone Number</label>
-										<input type="text" class="" >
-									</div>
-									<div class="form  col-md-3">
-										<label for="">Message</label>
-										<input class=""  type="text">
-									</div>
-								
-								</div>
-								<div class="row">
-										<div class="form col-md-3 col-md-offset-9 float-right">
-												<div class=" text-center ">
-													<input class="white" type="submit" value="Contact Our Pharmacist" class="">
-				
-												</div>
-											</div>
-		
-								</div>
-							</form>
-						</div>
+			<div class="contact-oc_footer ">
+				<div class="banner-text ocl ">
+					<form action="vendor/contact.php" class=" white" name="frmContacto">
+						<div class="row form">
+							<div class=" col-md-3 form ">
+								<label for=""> Name</label>
+								<input type="text" class="" required >
+							</div>
+
+							<div class="  col-md-3 form ">
+								<label for=""> E-mail</label>
+								<input type="text" class="" required >
+							</div>
+							<div class="form col-md-3">
+								<label for=""> Phone Number</label>
+								<input type="text" class="" required >
+							</div>
+							<div class="form  col-md-3">
+								<label for="">Message</label>
+								<input class=""  type="text" required>
+							</div>
 						
+						</div>
+						<div class="row">
+								<div class="form col-md-3 col-md-offset-9 float-right">
+										<div class=" text-center ">
+											<input class="white" type="submit" value="Contact Our Pharmacist" class="">
 		
-					</div>
+										</div>
+									</div>
+
+						</div>
+					</form>
+				</div>
+				
+
+			</div>
 		</div>
 
 	</div>
 
 </div>
-
 
 <div class="footer">
 	<p class="footer-text">&copy; 2018 Pharmacy Premier Health. All rights reserved  <a href="privacy.html">Privacy Policy</a> </p>
@@ -357,5 +358,6 @@ Author: ORIANA CONTRERAS
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
 <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </body>
 </html>

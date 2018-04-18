@@ -5,11 +5,12 @@ Author: ORIANA CONTRERAS  - orianalnc94@gmail.com
 <html>
 <head>
 <title> Pharmacy Premier Health </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="" />
-	<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+	
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
@@ -167,27 +168,27 @@ Author: ORIANA CONTRERAS  - orianalnc94@gmail.com
 			<div class="contact-oc mx-aut  oc-flex">
 				<div class="banner-text ocl">
 					<h3 class="white text-center">Contact Our Pharmacist</h3>
-					<form action="" class="space">
+					<form action="vendor/contact.php" class="space">
 						<div class="form">
 							<div class="mar-form">
 								<label for=""> Name</label>
-								<input type="text" class="input" >
+								<input type="text" class="input" name="name" required >
 							</div>
 
 							<div class="mar-form">
 								<label for=""> E-mail</label>
-								<input type="text" class="input" >
+								<input type="email" class="input" name="email" required>
 
 							</div>
 
 							<div class="mar-form">
 								<label for=""> Phone Number</label>
-								<input type="text" class="input" >
+								<input type="tel" class="input" name="phone" required>
 							</div>
 
 							<div class="mar-form">
 								<label for="">Message</label>
-								<textarea class="input" name="menssages" id="" cols="10" rows="2"></textarea>
+								<textarea class="input" name="menssages" id="" cols="10" rows="2" required></textarea>
 
 							</div>
 							<div class="mar-form">
@@ -231,8 +232,9 @@ Author: ORIANA CONTRERAS  - orianalnc94@gmail.com
 		<div class="btm-right-grid agile">
 			<h2>Premier Pharmacy</h2>
 			<p> Our pharmacy is dedicated to curating a quality experience for each and every customer that walks in the door. We are your community pharmacy and aim to provide positive, easy and informative interactions every time you step through our door. Each of our on-site-pharmacists is dedicated to assisting you with all of your pharmaceutical needs through one-on-one consultations. Come see us, here you are a priority. </p>
-			<DIV>We give you genuine care,  We make sure your prescription is working for you. </DIV>
-		</div>	
+			<p class="center">We give you genuine care,  We make sure your prescription is working for you. </p>
+		</div>
+			
 	</div>
 	<div class="clearfix"></div>
 </div>
@@ -256,7 +258,7 @@ Author: ORIANA CONTRERAS  - orianalnc94@gmail.com
 			</div>
 			<div class="col-md-3   list-left text-center wow bounceInDown item-services" data-wow-duration="1.5s" data-wow-delay="0.3s">
 				<span><img src="images/icon3.png" alt=" "/></span>
-				<h4>Personalized Services</h4>
+				<h4>Personalized </h4>
 				<!--<div class="multi-gd-text"><a href="#"><img class="img-responsive" src="images/p7.jpg" alt=" "/></a></div>-->
 				<p>We are continually growing and expanding our service offering to accommodate unique and future needs of our customers. </p>
 			</div>
@@ -264,7 +266,7 @@ Author: ORIANA CONTRERAS  - orianalnc94@gmail.com
 				<span><img src="images/icon5.png" alt=" "/></span>
 				<h4>Free Delivery</h4>
 				<!--<div class="multi-gd-text"><a href="#"><img class="img-responsive" src="images/p7.jpg" alt=" "/></a></div>-->
-				<p>Lorem lorem</p>
+				<p>Your prescription are delivered to your door at no estra cost; delivery is completely free.</p>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -503,24 +505,24 @@ Author: ORIANA CONTRERAS  - orianalnc94@gmail.com
 
 			<div class="contact-oc_footer ">
 				<div class="banner-text ocl ">
-					<form action="" class=" white">
+					<form action="vendor/contact.php" class=" white">
 						<div class="row form">
 							<div class=" col-md-3 form ">
 								<label for=""> Name</label>
-								<input type="text" class="" >
+								<input type="text" class="" required >
 							</div>
 
 							<div class="  col-md-3 form ">
 								<label for=""> E-mail</label>
-								<input type="text" class="" >
+								<input type="text" class="" required >
 							</div>
 							<div class="form col-md-3">
 								<label for=""> Phone Number</label>
-								<input type="text" class="" >
+								<input type="text" class="" required >
 							</div>
 							<div class="form  col-md-3">
 								<label for="">Message</label>
-								<input class=""  type="text">
+								<input class=""  type="text" required>
 							</div>
 						
 						</div>
